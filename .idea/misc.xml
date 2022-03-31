@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/shree/AndroidStudioProjects/MyFashionSketch/app/src/main/res/drawable/ic_channel_background.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/MyFashionSketch/app/src/main/res/drawable/ic_channel_foreground.xml" value="0.122" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/MyFashionSketch/app/src/main/res/layout/activity_detailed.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/shree/AndroidStudioProjects/MyFashionSketch/app/src/main/res/layout/activity_main.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
