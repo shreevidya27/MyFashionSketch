@@ -9,7 +9,7 @@ import android.widget.ImageView;
 public class HomeActivity extends AppCompatActivity {
     ImageView imageView1;
     ImageView imageView2;
-    public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.fashion.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
