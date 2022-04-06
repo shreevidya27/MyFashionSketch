@@ -1,51 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="130dp"
-        android:layout_height="125dp"
-        android:layout_marginEnd="56dp"
-        android:src="@drawable/ic_indian_wear"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="87dp" />
+        android:id="@+id/imageView1"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="208dp"
+        android:layout_marginBottom="531dp"
+        android:src="@drawable/ic_indian_wear" />
 
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="125dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="56dp"
-        android:src="@drawable/ic_indian_wear"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="382dp"
+        android:src="@drawable/ic_skirt_wear" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="129dp"
-        android:layout_height="125dp"
-        android:layout_marginEnd="56dp"
-        android:src="@drawable/ic_indian_wear"
-        app:layout_constraintEnd_toStartOf="@+id/imageView2"
-        app:layout_constraintHorizontal_bias="0.951"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="87dp" />
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="531dp"
+        android:src="@drawable/ic_back_neck" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="123dp"
-        android:layout_height="137dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="60dp"
-        android:src="@drawable/ic_indian_wear"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        android:layout_width="157dp"
+        android:layout_height="157dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="222dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="381dp"
+        android:src="@drawable/ic_next_wear" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
