@@ -13,6 +13,15 @@
             android:name=".DetailedActivity"
             android:exported="false" />
         <activity
+            android:name=".DetailedNeckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BackNeckDetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomDetailedActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>

@@ -5,6 +5,10 @@
       <map>
         <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/activity_detailed.xml" value="0.25" />
         <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
+        <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/back_neck_activity_detailed.xml" value="0.3723958333333333" />
+        <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/bottom_activity_detailed.xml" value="0.3723958333333333" />
+        <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/neck_activity_detailed.xml" value="0.3723958333333333" />
+        <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/neck_recycler_item.xml" value="0.15052083333333333" />
         <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/layout/recycler_item.xml" value="0.259375" />
         <entry key="..\:/Android Projects/MyFashionSketch/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.236" />
         <entry key="..\:/Users/shree/AndroidStudioProjects/MyFashionSketch/app/src/main/res/drawable/ic_channel_background.xml" value="0.10400000000000001" />

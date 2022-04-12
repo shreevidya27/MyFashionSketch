@@ -1,19 +1,11 @@
 package com.myapp.myfashionsketch;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import com.myapp.myfashionsketch.R.layout;
-import com.myapp.myfashionsketch.adapter.HorizontalAdapter;
-
-import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
     ImageView imageView1;
@@ -30,15 +22,34 @@ public class HomeActivity extends AppCompatActivity {
         imageview3 = findViewById(R.id.imageView3);
         imageView4 = findViewById(R.id.imageView4);
 
-        imageView1.setOnClickListener(this::onClick);
-        imageView2.setOnClickListener(this::onClick);
-        imageview3.setOnClickListener(this::onClick);
-        imageView4.setOnClickListener(this::onClick);
+        imageView1.setOnClickListener(this::onClick_1);
+        imageView2.setOnClickListener(this::onClick_2);
+        imageview3.setOnClickListener(this::onClick_3);
+        imageView4.setOnClickListener(this::onClick_4);
     }
 
-    private void onClick(View view) {
+    private void onClick_1(View view) {
         Intent mainIntent = new Intent(getApplicationContext(),
                 DetailedActivity.class);
         startActivity(mainIntent);
     }
+
+    private void onClick_2(View view) {
+        Intent mainIntent = new Intent(getApplicationContext(),
+                BottomDetailedActivity.class);
+        startActivity(mainIntent);
+    }
+
+    private void onClick_3(View view) {
+        Intent mainIntent = new Intent(getApplicationContext(),
+                BackNeckDetailedActivity.class);
+        startActivity(mainIntent);
+    }
+
+    private void onClick_4(View view) {
+        Intent mainIntent = new Intent(getApplicationContext(),
+                DetailedNeckActivity.class);
+        startActivity(mainIntent);
+    }
+
 }

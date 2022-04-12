@@ -19,7 +19,7 @@ import com.myapp.myfashionsketch.adapter.HorizontalAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DetailedActivity extends Activity {
+public class BottomDetailedActivity extends Activity {
     private static final int CONTENT_VIEW_ID = 10101010;
 
     @RequiresApi(api = Build.VERSION_CODES.Q)
@@ -32,25 +32,25 @@ public class DetailedActivity extends Activity {
                 FrameLayout.LayoutParams.MATCH_PARENT, FrameLayout.LayoutParams.MATCH_PARENT));
 
         if (savedInstanceState == null) {
-            Fragment newFragment = new MainBodyFragment();
+            Fragment newFragment = new DebugExampleTwoFragment();
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(CONTENT_VIEW_ID,newFragment).commit();
         }
     }
 
-    public static class MainBodyFragment extends Fragment {
+    public static class DebugExampleTwoFragment extends Fragment {
         RecyclerView recyclerView;
         List<String> data = new ArrayList<>();
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView =inflater.inflate(R.layout.activity_detailed, container, false);
+            View rootView =inflater.inflate(R.layout.bottom_activity_detailed, container, false);
             recyclerView = rootView.findViewById(R.id.recycler);
             recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
-            data.add("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
-            data.add("https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg");
-            data.add("https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80");
-            data.add("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+            data.add("https://stylesatlife.com/wp-content/uploads/2020/05/Keyhole-Neckline-Kurta-Design.jpg");
+            data.add("https://i.pinimg.com/564x/a5/90/4f/a5904f056bdf6b17dcd3525fda3e0277.jpg");
+            data.add("https://cdn.shopify.com/s/files/1/0021/8241/4420/products/1001-ag-002214-navy_2_1024x1024@2x.jpg?v=1580991861");
+            data.add("https://stylesatlife.com/wp-content/uploads/2020/05/Sweet-Heart-Neck-Kurta-Design.jpg.webp");
             recyclerView.setAdapter(new HorizontalAdapter(data));
             return rootView;
         }
