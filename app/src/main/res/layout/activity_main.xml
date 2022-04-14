@@ -17,7 +17,7 @@
         android:layout_marginTop="45dp"
         android:layout_marginEnd="208dp"
         android:layout_marginBottom="531dp"
-        android:src="@drawable/ic_indian_wear" />
+        android:src="@drawable/ic_next_wear" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -55,6 +55,6 @@
         android:layout_marginTop="212dp"
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="381dp"
-        android:src="@drawable/ic_next_wear" />
+        android:src="@drawable/ic_neck_wear" />
 
 </RelativeLayout>

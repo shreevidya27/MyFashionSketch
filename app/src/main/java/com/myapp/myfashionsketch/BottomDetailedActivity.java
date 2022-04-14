@@ -47,10 +47,11 @@ public class BottomDetailedActivity extends Activity {
             View rootView =inflater.inflate(R.layout.bottom_activity_detailed, container, false);
             recyclerView = rootView.findViewById(R.id.recycler);
             recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
-            data.add("https://stylesatlife.com/wp-content/uploads/2020/05/Keyhole-Neckline-Kurta-Design.jpg");
-            data.add("https://i.pinimg.com/564x/a5/90/4f/a5904f056bdf6b17dcd3525fda3e0277.jpg");
-            data.add("https://cdn.shopify.com/s/files/1/0021/8241/4420/products/1001-ag-002214-navy_2_1024x1024@2x.jpg?v=1580991861");
-            data.add("https://stylesatlife.com/wp-content/uploads/2020/05/Sweet-Heart-Neck-Kurta-Design.jpg.webp");
+            data.add("https://www.linkpicture.com/q/ic_skirt_wear-5.png");
+            data.add("https://www.linkpicture.com/q/ic_skirt_wear-6.png");
+            data.add("https://www.linkpicture.com/q/ic_skirt_wear-4.png");
+            data.add("https://www.linkpicture.com/q/ic_skirt_wear-2.png");
+            data.add("https://www.linkpicture.com/q/ic_skirt_wear-3.png");
             recyclerView.setAdapter(new HorizontalAdapter(data));
             return rootView;
         }

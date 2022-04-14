@@ -47,10 +47,10 @@ public class DetailedNeckActivity extends Activity {
             View rootView =inflater.inflate(R.layout.neck_activity_detailed, container, false);
             recyclerView = rootView.findViewById(R.id.neck_recycler);
             recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
-            data.add("https://images.ctfassets.net/yadj1kx9rmg0/wtrHxeu3zEoEce2MokCSi/cf6f68efdcf625fdc060607df0f3baef/quwowooybuqbl6ntboz3.jpg");
-            data.add("https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg");
-            data.add("https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80");
-            data.add("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+            data.add("https://www.linkpicture.com/q/images-2022-04-14T114936.424-2.jpeg");
+            data.add("https://www.linkpicture.com/q/images-2022-04-14T114951.318-2.jpeg");
+            data.add("https://www.linkpicture.com/q/images-2022-04-14T115017.501.jpeg");
+            data.add("https://www.linkpicture.com/q/images-2022-04-14T115030.723.jpeg");
             recyclerView.setAdapter(new HorizontalAdapter(data));
             return rootView;
         }

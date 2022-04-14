@@ -47,10 +47,10 @@ public class DetailedActivity extends Activity {
             View rootView =inflater.inflate(R.layout.activity_detailed, container, false);
             recyclerView = rootView.findViewById(R.id.recycler);
             recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false));
-            data.add("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
-            data.add("https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg");
-            data.add("https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHw%3D&w=1000&q=80");
-            data.add("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+            data.add("https://www.linkpicture.com/q/Picsart_22-04-14_12-50-22-162.jpg");
+            data.add("https://www.linkpicture.com/q/Picsart_22-04-14_12-50-53-694.jpg");
+            data.add("https://www.linkpicture.com/q/Picsart_22-04-14_12-53-38-105.jpg");
+            data.add("https://www.linkpicture.com/q/Picsart_22-04-14_12-52-48-458.jpg");
             recyclerView.setAdapter(new HorizontalAdapter(data));
             return rootView;
         }
